@@ -1,0 +1,84 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    /*background-color: grey;*/
+}
+
+a,
+a:hover,
+link {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-color: black;
+    padding-top: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.jumbotron {
+    /*margin-top: -1rem;
+    padding: 1rem;*/
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 1rem;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container {
+    width: 100%;
+    color: white;
+}
+
+.containerBlock {
+    width: 100%;
+    background-color: white;
+    color: black;
+    padding-top: 1rem;
+}
+
+.navFontColor {
+    color: white;
+    text-decoration: none;
+}
+
+.navListItem {
+    padding: 0.75rem;
+}
+
+.aboutHeader {
+    padding-left: 2rem;
+}
+
+.aboutBackgroundImg {
+    max-height: 30rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.exhibitsBackgroundImg {
+    max-height: 30rem;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+li {
+    display: inline;
+}
